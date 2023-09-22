@@ -1,0 +1,7 @@
+train: dataset/images/trains # train images (relative to 'path') 128 images
+val: dataset/images/vals # val images (relative to 'path') 128 images
+test: #
+
+# Classes
+nc: 3  # number of classes
+names: ['Yagi antenna', 'Plate log antenna', 'Patch antenna']  # class names
